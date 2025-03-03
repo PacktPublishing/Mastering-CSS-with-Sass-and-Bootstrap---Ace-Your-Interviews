@@ -1,0 +1,16 @@
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: dodgerblue;
+}
+.pixel-unit{
+    font-size: 30px;
+    color: goldenrod;
+    border: solid 4px;
+    padding: 40px;
+}
+.point-unit{
+    font-size: 30pt;
+    border: solid 4pt;
+    padding: 40pt;
+}

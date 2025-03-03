@@ -1,0 +1,10 @@
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: goldenrod;
+    font-size: 1.5em;
+}
+p{
+    text-align: start;
+    direction: rtl;
+}

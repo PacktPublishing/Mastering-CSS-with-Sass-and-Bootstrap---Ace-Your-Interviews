@@ -1,0 +1,15 @@
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: khaki;
+}
+div{
+    border: solid 5px orangered;
+    padding: 50px 100px;
+    width: 350px;
+}
+h1{
+    border: solid 5px;
+    padding: 10%;
+    margin: 0;
+}

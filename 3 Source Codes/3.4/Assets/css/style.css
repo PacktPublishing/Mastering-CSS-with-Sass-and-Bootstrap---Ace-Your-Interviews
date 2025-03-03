@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+h1{
+    color: coral;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration:underline;
+    font-style: italic;
+}
+p{
+    color: chocolate;
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    font-style: oblique;
+}
+a{
+    color: cyan;
+    font-size:x-large ;
+    font-style: italic;
+}

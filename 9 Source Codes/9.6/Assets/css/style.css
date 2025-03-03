@@ -1,0 +1,13 @@
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+h1{
+    border: solid 5px dodgerblue;
+    margin: 20px -5px 30px -5px;
+}
+p{
+    border: solid 5px;
+    margin: -30px -5px 25px -5px;
+}

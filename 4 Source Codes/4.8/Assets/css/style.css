@@ -1,0 +1,9 @@
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ccc;
+}
+[class$="Test"]{
+    color: #9f3;
+    font-style: italic;
+}  

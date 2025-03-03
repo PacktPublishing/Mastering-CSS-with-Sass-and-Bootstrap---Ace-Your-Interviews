@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotate() Method</title>
+    <link rel="stylesheet" href="./Assets/css/style2.css">
+    <style>
+        body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    }
+    .transform-2D{
+        background: brown;
+        padding: 25px;
+        margin: 18px;
+        width: 200px;
+        transform: translateX(40px)
+                   translateY(40px)
+                   rotate(-0.9turn);
+      }
+.transform-3D{
+        background: darkgreen;
+        padding: 25px;
+        margin: 18px 0 0 90px;
+        width: 200px;
+        transform: perspective(200px)
+                   translate3d(10px, 10px, 20px)
+                   rotate3d(1,0,0,30deg);
+      }
+
+    </style>
+</head>
+<body>
+    <div class="transform-2D">2D transform</div>
+    <div class="transform-3D">3D transform</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div{
+    padding: 130px;
+    margin-top: 5em;
+    background: radial-gradient(
+        circle at top left, #6df 20%,#03a 50%,#6df
+    );
+}

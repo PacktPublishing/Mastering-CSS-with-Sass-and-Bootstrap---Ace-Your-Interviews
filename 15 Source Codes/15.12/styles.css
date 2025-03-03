@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1f2022;
+    background: #de9f29a9;
+    overflow-x: hidden;
+}
+p,h2{
+    position: relative;
+    margin: 20px 15%;
+    z-index: 1;
+}
+.text{
+    position: relative;
+}
+.text::before{
+    content: "";
+    background: #fffff0;
+    display: block;
+    position: absolute;
+    width: 150%;
+    height: 125%;
+    top: 50%;
+    left: 50%;
+    rotate: -3deg;
+    translate: -50% -50%;
+}
+section{
+    padding: 40px 0;
+}
+p{
+    opacity: 0.8;
+}
+.image{
+    background-image: url("./Assets/bg-wallpaper.jpg");
+    height: 380px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}

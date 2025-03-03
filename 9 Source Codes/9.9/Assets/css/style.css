@@ -1,0 +1,27 @@
+body {
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.parent{
+    padding: 15px;
+    width: 450px;
+    border: solid 2px dodgerblue;
+    overflow: hidden;
+}
+div > div{
+    padding: 10px;
+    margin: 10px;
+}
+.ele1{
+    background-color: darkred;
+    float: left;
+}
+.ele2{
+    background-color: darkgoldenrod;
+    float: left;
+}
+.ele3{
+    background-color: darkgreen;
+    float: left;
+}

@@ -1,0 +1,11 @@
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: wheat;
+    font-size: 1.5em;
+    padding: 25px;
+}
+p{
+    text-indent: 3em;
+    direction: rtl;
+}

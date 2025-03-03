@@ -1,0 +1,10 @@
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ccc;
+}
+a[href*="yah" i]{
+    color: #d0c;
+    font-style: oblique;
+    font-size: 2em;
+}

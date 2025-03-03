@@ -1,0 +1,15 @@
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: salmon;
+}
+.parent{
+    font-size: 20px;
+}
+.child{
+    font-size: 24px;
+    font-size: 2rem;
+}
+html{
+    font-size: 12px;
+}

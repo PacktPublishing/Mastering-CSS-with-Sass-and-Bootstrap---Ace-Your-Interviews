@@ -1,0 +1,25 @@
+body {
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.firstDiv{
+    width: 10rem;
+    height: 10rem;
+    background-color: darkgoldenrod;
+    visibility: hidden;
+}
+.secondDiv{
+    width: 10rem;
+    height: 10rem;
+    background-color: chocolate;
+    display: none;
+}
+.thirdDiv{
+    width: 10rem;
+    height: 10rem;
+    background-color: saddlebrown;
+}
+div{
+    display: inline-block;
+}

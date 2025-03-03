@@ -1,0 +1,36 @@
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ccc;
+}
+h1{
+    color: coral;
+    font-size: 2.5em;
+    text-decoration:underline;
+    font-style: italic;
+    text-align: center;
+}
+div{
+    color: red;
+    font-size: 1.2em;
+    padding: 8px;
+    font-style: oblique;
+}
+ul {
+    background-color:#333;
+    font-size: 1.2em;
+    font-style: oblique;
+}
+li{
+    color: #fc0;
+    font-size: 1.2em;
+    padding: 8px;
+    font-style: oblique;
+}
+h2{
+    color: grey;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}

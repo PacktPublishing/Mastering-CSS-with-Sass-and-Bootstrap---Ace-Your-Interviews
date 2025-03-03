@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <title>Adjacent Selector Assignment</title>
+    <style>
+        body{
+            background-color: #111;
+            font-size: xx-large;
+            color: #ccc;
+        }
+        div+h3{
+            padding: 25px;
+            background-color: #396f9b;
+        }
+        div.heading +p {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>This is paragraph inside div</p>
+    </div>
+    <h3>This is heading</h3>
+    <div>
+        <h3>This is heading inside div</h3>
+    </div>
+    <p>This is paragraph outside div</p>
+    <div class="heading">
+        <h3>This is heading inside heading div</h3>
+    </div>
+    <p>This is paragraph after heading div</p>
+</body>
+</html>

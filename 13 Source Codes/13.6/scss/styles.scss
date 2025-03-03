@@ -1,0 +1,20 @@
+@use  'newColor1' as *;
+@use  'newColor2' as s;
+ 
+ 
+body {
+  background-color: #111;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+ 
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: $bg-color;
+}
+ 
+.text1,.text2,.text3{
+    font-size: 1.3rem;
+    color: s.$bg-color;
+}

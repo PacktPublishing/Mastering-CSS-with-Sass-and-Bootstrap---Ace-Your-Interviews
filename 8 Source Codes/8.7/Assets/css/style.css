@@ -1,0 +1,14 @@
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: coral;
+}
+.pica{
+    font-size: 2pc;
+}
+.pixel{
+    font-size: 32px;
+}
+.point{
+    font-size: 24pt;
+}

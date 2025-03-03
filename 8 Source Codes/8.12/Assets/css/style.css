@@ -1,0 +1,16 @@
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: coral;
+}
+input{
+    border-radius: 0.6rem;
+    font-size: 2em;
+    margin: 2rem;
+    padding: 0.4rem;
+    width: 15ch;
+}
+p{
+    font-size: 1.3rem;
+    width: 50ch;
+}

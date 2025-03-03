@@ -1,0 +1,22 @@
+body{
+    background-color: #111;
+    font-style: oblique;
+    color: #ccc;
+}
+input{
+    display: flex;
+    margin: 20px;
+    width: 25%;
+    border: 1px solid coral;
+    border-radius: 3px;
+}
+div{
+    margin: 20px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid coral;
+    color: #333;
+    border-radius: 3px;
+    font-size: 1.5em;
+    width: 40%;
+}

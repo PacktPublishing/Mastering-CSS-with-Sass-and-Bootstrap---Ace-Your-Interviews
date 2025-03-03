@@ -1,0 +1,25 @@
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    height: 100%;
+}
+html{
+    height: 100%;
+}
+h1{
+    display: inline-block;
+    font-size: 3rem;
+    border: solid burlywood;
+    width: 42vw;
+    height: 70vh;
+    margin: 15vh auto;
+}
+h2{
+    display: inline-block;
+    font-size: 3rem;
+    border: solid burlywood;
+    width: 42vw;
+    height: 70%;
+    margin: 15vh auto;
+}

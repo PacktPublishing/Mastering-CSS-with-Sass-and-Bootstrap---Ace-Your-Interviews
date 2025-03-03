@@ -1,0 +1,28 @@
+body {
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.slide{
+    background-color: darkolivegreen;
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    animation: slideBox 3s infinite;
+}
+@keyframes slideBox{
+    0%{
+        transform: translate(0px);
+    }
+    33%{
+        height: 100px;
+        width: 1px;
+    }
+    43%{
+        border-radius: 50%;
+        background-color: goldenrod;
+    }
+    100%{
+        transform: translate(450px) rotate(90deg);
+    }
+}

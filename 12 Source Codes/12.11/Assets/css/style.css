@@ -1,0 +1,25 @@
+body {
+    background-color: #111;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.myDiv{
+    position: relative;
+    padding: 50px;
+    margin: 60px;
+    width: 0px;
+    border: solid 20px goldenrod;
+    background-color: khaki;
+    animation: animate 2s ease-in-out 3s forwards;
+}
+@keyframes animate{
+    from{
+        left: 0%;
+        background-color: orangered;
+    }
+    to{
+        left: 55%;
+        background-color: darkgreen;
+        transform: rotate(180deg);
+    }
+}

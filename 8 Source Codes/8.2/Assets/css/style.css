@@ -1,0 +1,16 @@
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: dodgerblue;
+}
+div{
+    background-color: khaki;
+    color: brown;
+    text-align: center;
+    font-size: 50px;
+    padding: 110px;
+    margin: 30px 50px;
+    width: 200px;
+    height: 150px;
+    border-radius: 50px;
+}

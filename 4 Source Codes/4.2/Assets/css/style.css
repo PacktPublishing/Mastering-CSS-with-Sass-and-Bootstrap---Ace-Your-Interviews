@@ -1,0 +1,12 @@
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ccc;
+}
+div.myStyle p, h2{
+    color:#ff9a27;
+    font-style: oblique;
+    font-size: 1.25em;
+    font-weight: bold;
+    font-family: cursive;
+}

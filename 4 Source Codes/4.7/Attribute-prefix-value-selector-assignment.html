@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Prefix Value Selector (^)</title>
+    <style>
+        div.heading > a[href^="c"][target="_blank"] {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <a href="ccc.com" target="_blank">Google.com</a><br>
+        <a href="pqr.com" target="_self"><p>This is link</p></a>
+        <a href="cfg.com" target="_blank">Click Here</a>
+    </div>
+    <div>
+        <p>This is paragraph</p>
+        <a href="g.com" target="_blank">Gmail link</a>
+    </div>
+</body>
+
+</html>

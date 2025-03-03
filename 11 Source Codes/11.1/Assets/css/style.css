@@ -1,0 +1,33 @@
+body {
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.box-rotation{
+    height: 150px;
+    width: 150px;
+    background-color: goldenrod;
+    margin: 10px;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    padding: 10px;
+    transition: all 1s;
+}
+.box-rotation:hover{
+    color: white;
+    background-color: orangered;
+    border-radius: 50%;
+    transition: all 1s;
+    transform: rotateZ(360deg);
+}
+.parentDiv{
+    display: flex;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+}

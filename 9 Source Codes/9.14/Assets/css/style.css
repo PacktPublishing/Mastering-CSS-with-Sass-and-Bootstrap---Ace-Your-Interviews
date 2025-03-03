@@ -1,0 +1,20 @@
+body {
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+div{
+    background-color: darkgoldenrod;
+    text-align: center;
+    border: solid 2px khaki;
+    padding: 15px;
+    font-size: 1.4em;
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: 40% 1fr 1fr 2fr;
+    margin: 3rem;
+    justify-content: center;
+    column-gap: 10px;
+    row-gap: 10px;
+}

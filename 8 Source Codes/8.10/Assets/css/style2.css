@@ -1,0 +1,17 @@
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: salmon;
+    font-size: 12px;
+}
+.fixed-layout{
+    border: 2px solid salmon;
+    width: 400px;
+    padding: 50px;
+}
+.fluid-layout{
+    border: solid goldenrod;
+    width: 61.75%;
+    padding: 9%;
+    border-width: 12px;
+}

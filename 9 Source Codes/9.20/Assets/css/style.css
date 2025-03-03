@@ -1,0 +1,51 @@
+body {
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+h1{
+    color: dodgerblue;
+    font-size: 3rem;
+}
+button{
+    background-color: dodgerblue;
+    border: 0;
+    color: white;
+    padding: 8px;
+    width: 100px;
+    border-radius: 15px;
+}
+@media screen and (max-width:450px){
+    body{
+        text-align: center;
+    }
+    h1{
+        color: goldenrod;
+        font-size: 2.5rem;
+    }
+    button{
+        background-color: gold;
+        color: black;
+    }
+    p{
+        font-size: 0.8rem;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+@media screen and (max-width:300px){
+    body{
+        text-align: right;
+    }
+    h1{
+        color: chocolate;
+        font-size: 2rem;
+    }
+    button{
+        background-color: chocolate;
+        color: white;
+    }
+    p{
+        font-size: 0.8rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>valid invalid pseudo class</title>   
+    <link rel="stylesheet" href="./Assets/css/style.css">
+</head> 
+<body>
+    <form class="myForm">
+        <label>Employee Name:</label>
+        <input type="text" pattern="[A-Z][a-z]{1,40}" required>
+        <label>Employee Email:</label>
+        <input type="email" required>
+        <label>Mobile:</label>
+        <input type="text" pattern="[0-9]{10}" required>
+        <label>Employee Salary:</label>
+        <input type="number" required>
+    </form>
+</body>
+</html>

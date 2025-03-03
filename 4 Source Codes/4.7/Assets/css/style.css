@@ -1,0 +1,10 @@
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ccc;
+}
+a[href^="#"]{
+    color: red;
+    font-style: italic;
+    font-size: 2em;
+}

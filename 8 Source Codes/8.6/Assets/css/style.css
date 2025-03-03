@@ -1,0 +1,11 @@
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: goldenrod;
+}
+.inch{
+    font-size: 0.5in;
+}
+.pixel{
+    font-size: 48px;
+}

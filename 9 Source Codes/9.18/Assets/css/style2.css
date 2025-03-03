@@ -1,0 +1,28 @@
+body {
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.card{
+    border: solid 2px goldenrod;
+    margin: 20px;
+    flex: 1 0 200px;
+    text-align: center;
+}
+.card .details{
+    padding: 0 30px 30px;
+}
+button{
+    background-color: coral;
+    border: 0px;
+    font-size: 0.75em;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+}

@@ -1,0 +1,17 @@
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: khaki;
+}
+div{
+    border: solid 5px orangered;
+    width: 400px;
+    height: 250px;
+    margin: auto;
+}
+p{
+    border: solid 5px;
+    padding: 10px;
+    margin: auto auto;
+    width: 300px;
+}

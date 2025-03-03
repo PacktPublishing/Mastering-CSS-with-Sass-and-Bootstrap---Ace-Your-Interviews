@@ -1,0 +1,22 @@
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ccc;
+}
+a:link{
+    color: coral;
+}
+a:visited{
+    color: grey;
+}
+p:target{
+    color:brown;
+    background-color: goldenrod;
+    border: 2px solid darkgoldenrod;
+    border-radius: 3px;
+}
+p:target span{
+    color: brown;
+    font-size: 1.5em;
+    font-style: italic;
+}

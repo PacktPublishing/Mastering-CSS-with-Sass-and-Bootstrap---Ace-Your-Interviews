@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'headingFont';
+    src: url(../fonts/RobotoSlab-Bold.ttf) format('woff');
+}
+@font-face {
+    font-family: 'paragraphFont';
+    src: url(../fonts/RobotoSlab-Regular.ttf) format('woff2');
+}
+body{
+    background-color: #111;
+    font-size: 1.2em;
+    color: white;
+}
+h1{
+    font-family: 'headingFont';
+    text-align: center;
+    font-size: 3em;
+    color: khaki;
+}
+p{
+    font-family: 'paragraphFont';
+}

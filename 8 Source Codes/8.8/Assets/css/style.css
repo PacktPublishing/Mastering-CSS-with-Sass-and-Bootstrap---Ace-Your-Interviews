@@ -1,0 +1,14 @@
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+p{
+    font-size: 1.25em;
+    border: solid 4px salmon;
+    text-align: justify;
+    padding: 2em;
+}
+div{
+    font-size: 20px;
+}

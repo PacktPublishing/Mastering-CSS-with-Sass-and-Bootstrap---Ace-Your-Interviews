@@ -1,0 +1,10 @@
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ccc;
+}
+p[class~="myStyle"]{
+    color: #fc1;
+    font-size: 2em;
+    font-style: italic;
+}

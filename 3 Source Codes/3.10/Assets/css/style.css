@@ -1,0 +1,12 @@
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ccc;
+}
+* div{
+    font-size: 1.25em;
+    text-align: center;
+    color: #ff9600;
+    text-transform: uppercase;
+    font-style: italic;
+}

@@ -1,0 +1,46 @@
+body {
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.elem{
+    width: 100px;
+    height: 100px;
+    margin: 100px 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: goldenrod;
+    animation: zigzag 3s alternate infinite;
+}
+@keyframes zigzag{
+    0%{
+        left: 0;
+        top: 0;
+    }
+    15%{
+        left: 60px;
+        top: -50px;
+    }
+    30%{
+        left: 120px;
+        top: 0;
+    }
+    45%{
+        left: 180px;
+        top: -50px;
+    }
+    60%{
+        left: 240px;
+        top: 0;
+    }
+    75%{
+        left: 300px;
+        top: -50px;
+    }
+    100%{
+        left: 360px;
+        top: 0;
+    }
+}

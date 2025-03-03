@@ -1,0 +1,22 @@
+body {
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+div{
+    border: solid 4px dodgerblue;
+}
+img{
+    margin: 1em;
+    float: left;
+}
+p{
+    padding: 1em;
+    float: left;
+}
+.clearfix::after{
+    content: "";
+    visibility: hidden;
+    clear: both;
+    display: block;
+}

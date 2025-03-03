@@ -1,0 +1,14 @@
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: dodgerblue;
+}
+.millimeter{
+    font-size: 7mm;
+}
+.centimeter{
+    font-size: 0.7cm;
+}
+.pixel{
+    font-size: 26.46px;
+}
